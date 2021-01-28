@@ -1,0 +1,21 @@
+.buton1{background-color:#009FDC;
+    border: none; border-radius:23px;
+    color:white;
+    height:40px;
+    width:100px;}
+
+.buton2{
+    background-color:#9C7DAB;
+    border: none; 
+    border-radius:23px;
+    color:white;
+    height:40px;
+    width:100px;}
+.light{
+    background-color:#eb5e0b;
+    color:white;
+    margin-left: 10px;
+    border: none;
+    border-radius:23px;
+    height:40px;
+    width:100px;}
