@@ -1,21 +1,59 @@
-.buton1{background-color:#009FDC;
-    border: none; border-radius:23px;
-    color:white;
-    height:40px;
-    width:100px;}
+.buton1 {
+    background-color: #009FDC;
+    border: none;
+    border-radius: 23px;
+    color: white;
+    height: 40px;
+    width: 100px;
+}
 
-.buton2{
-    background-color:#9C7DAB;
-    border: none; 
-    border-radius:23px;
-    color:white;
-    height:40px;
-    width:100px;}
-.light{
-    background-color:#eb5e0b;
-    color:white;
+.buton2 {
+    background-color: #9C7DAB;
+    border: none;
+    border-radius: 23px;
+    color: white;
+    height: 40px;
+    width: 100px;
+}
+
+.light {
+    background-color: #eb5e0b;
+    color: white;
     margin-left: 10px;
     border: none;
-    border-radius:23px;
-    height:40px;
-    width:100px;}
+    border-radius: 23px;
+    height: 40px;
+    width: 100px;
+}
+
+.dividerDiv {
+    height: 100px;
+    background-color: transparent;
+    width: 100%;
+}
+
+.emailing-module-hr {
+    width: 2.5rem;
+    height: 0.125rem;
+    margin-top: 0;
+    margin-bottom: 1.25rem;
+    margin-left: 0;
+    border: 0;
+    background-color: #00bfd8;
+    text-align: left;
+}
+
+ul {
+    align-items: baseline;
+    list-style: none;
+    text-align: left;
+    list-style-position: inside;
+    align-self: left;
+}
+
+ul li:before {
+    content: '✓';
+    color: #00bfd8;
+    width: 10px;
+    height: 10px;
+}
