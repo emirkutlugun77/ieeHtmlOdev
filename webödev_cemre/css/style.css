@@ -1,0 +1,72 @@
+* {
+    letter-spacing: 1px;
+}
+
+.emailing-module-hr {
+    width: 2.5rem;
+    height: 0.125rem;
+    margin-top: 0;
+    margin-bottom: 1.25rem;
+    margin-left: 0;
+    border: 0;
+    background-color: orangered;
+    text-align: left;
+}
+
+ul {
+    align-items: baseline;
+    list-style: none;
+    text-align: left;
+    list-style-position: inside;
+    align-self: left;
+}
+
+ul li:before {
+    content: '✓';
+    color: orangered;
+    width: 10px;
+    height: 10px;
+}
+
+h1 {
+    color: #393939;
+    font: 700 2.25rem/2.75rem "Raleway", sans-serif;
+}
+
+.row {
+    flex-wrap: wrap;
+    display: flex;
+}
+
+#modal-button-primary {
+    padding-left: 10px;
+}
+
+.col-lg-8 {
+    flex: 0 0 66.666667%;
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: 66.6667%;
+    max-width: 66.666667%;
+}
+
+.image-container {
+    height: 100px;
+    width: 100%;
+}
+
+.container-fixed {
+    height: 600px;
+}
+
+#exampleModalCenter {
+    padding: 100px;
+}
+
+.modal-header {
+    border-bottom: 0 none;
+}
+
+.modal-footer {
+    border-top: 0 none;
+}
